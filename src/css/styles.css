@@ -21,6 +21,8 @@
   --black: #121212;
   --brown: #bea69e;
   --white: #fff;
+  --hero-bg: #1d1d1d;
+  --text-second-color: #ffffff80;
 }
 
 *,
@@ -31,6 +33,7 @@
 
 body {
   font-family: 'DM Sans', sans-serif;
+  background-color: var(--black);
 }
 
 h1,

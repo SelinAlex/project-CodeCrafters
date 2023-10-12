@@ -1,5 +1,5 @@
 .page-footer{
-    padding: 40px 20px;
+    padding: 40px 20px 20px 20px;
     background-image:
             url(../../img/footer/footer-bg-mobile@1x.png);
     background-size: cover;
@@ -8,6 +8,7 @@
 .container-footer{
     display: flex;
     flex-direction: column;
+   
 }
 
 .logo-footer{
@@ -71,7 +72,7 @@
     margin-bottom:75px;
 }
 .form-input-footer{
-    max-width:267px;
+    width:267px;
     height: 60px;
     flex-shrink: 0;
     border-radius: 12px;
@@ -92,7 +93,6 @@
     flex-shrink: 0;
     border-radius: 12px;
     background-color: #1D1D1D;
-    margin-left: 8px;
     margin-right: auto;
     border: none;
     color: #FFF;
@@ -103,6 +103,11 @@
     font-weight: 400;
     line-height: 0.16;
 }
+.form-footer{
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+}
 .text-policy-footer{
     color: #FFF;
     font-family: DM Sans;
@@ -111,7 +116,6 @@
     font-weight: 400;
     line-height: 1.3;
     width: 147px;
-    height: 32px;
     margin-right: 72px;
 
 }
@@ -125,14 +129,33 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.3;
+
    
        
 }
+.text-agreement-footer{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    width: 147px;
+    margin-right: 72px;
+}
+
 
 .container-text-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+   display: flex;
+   flex-direction: row;
   
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px) {
+    .page-footer{
+        background-image: 
+            url(../../img/footer/footer-bg-mobile@2x.png);
+    }
+}

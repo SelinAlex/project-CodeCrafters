@@ -1,3 +1,13 @@
+.hero-section {
+  padding-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-section {
+    padding-bottom: 100px;
+  }
+}
+
 .hero-container-inner {
   background: var(--hero-bg);
   border-radius: 30px;
@@ -77,9 +87,22 @@
   margin-bottom: 4px;
 }
 
+@media screen and (min-width: 768px) {
+  .hero-student-photos-wrap {
+    width: 137px;
+    min-height: 54px;
+  }
+}
+
 .hero-students-photo {
   border-radius: 100%;
   position: absolute;
+}
+
+@media screen and (max-width: 767.98px) {
+  .hero-students-photo {
+    width: 44px;
+  }
 }
 
 .hero-students-photo:first-child {
@@ -97,6 +120,16 @@
   top: 0;
   left: 64px;
   z-index: 997;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-students-photo:nth-child(2) {
+    left: 40px;
+  }
+
+  .hero-students-photo:nth-child(3) {
+    left: 83px;
+  }
 }
 
 .hero-students-link {
@@ -141,7 +174,7 @@
   .hero-students-icon {
     position: absolute;
     left: 0;
-    bottom: -8px;
+    bottom: -16px;
   }
 }
 

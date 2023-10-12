@@ -1,15 +1,9 @@
-.section {
-  background-color: black;
-  padding: 0px 20px;
-  gap: 60px;
-}
 .span {
   color: #bea69e;
 }
 
 .sing-section {
   padding: 0 20px;
-  padding-left: unset;
 }
 .sign-title {
   color: #fff;

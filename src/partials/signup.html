@@ -1,0 +1,98 @@
+<section class="section">
+  <div class="sing-section">
+    <h2 class="sign-title">Sign <span class="span">Up</span></h2>
+    <p class="sign-text">
+      Please use the form below to contact us. Enter your name, email, and
+      message and we'll get back to you shortly.
+    </p>
+    <form name="sign-form">
+      <label class="sign-label" for="user-name"></label>
+      <div class="sign-blok">
+        <div class="sign-div-input">
+          <input
+            class="sign-input"
+            id="user-name"
+            type="text"
+            name="user-name"
+            pattern="[A-Za-z]{3}"
+            placeholder="Enter your name"
+          />
+        </div>
+
+        <label class="sign-label" for="user-email"></label>
+        <div class="sign-div-input">
+          <input
+            class="sign-input"
+            id="user-email"
+            type="text"
+            name="user-name"
+            placeholder="Enter your email"
+          />
+        </div>
+
+        <div class="div-sign-textarea">
+          <label class="sign-label" for="user-comment"></label>
+          <textarea
+            class="sign-textarea"
+            name="user-comment"
+            id="user-comment"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+        </div>
+      </div>
+      <button class="sign-send" type="button">Send</button>
+
+      <p class="sign-text-end">
+        By clicking on “Send” button, you agree to our
+        <a class="sign-link" href=""> Privacy Policy</a>
+        and allow Promodo to use this information for marketing purposes.
+      </p>
+    </form>
+  </div>
+  <div class="photo-img">
+    <picture>
+      <!-- <source
+        media="(max-width: 767px)"
+        srcset="./img/vite-logo 1x, ./img/vite-logo 2x"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="./img/vite-logo 1x, ./img/vite-logo 2x"
+      />
+      <source
+        media="(min-width: 1158px)"
+        srcset="./img/vite-logo 1x, ./img/vite-logo 2x"
+      /> -->
+      <img
+        class="photo"
+        src="./img/vite-logo.png"
+        alt="girl"
+        width="150"
+        height="142"
+      />
+    </picture>
+    <picture>
+      <!-- <source
+        media="(max-width: 767px)"
+        srcset="./img/vite-logo 1x, ./img/vite-logo 2x"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="./img/vite-logo 1x, ./img/vite-logo 2x"
+      />
+      <source
+        media="(min-width: 1158px)"
+        srcset="./img/vite-logo 1x, ./img/vite-logo 2x"
+      /> -->
+      <img
+        class="photo-k"
+        src="./img/vite-logo.png"
+        alt="girl"
+        width="240"
+        height="296"
+      />
+    </picture>
+  </div>
+</section>

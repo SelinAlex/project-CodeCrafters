@@ -7,18 +7,14 @@
 }
 .sign-title {
   color: #fff;
-  font-family: DM Sans;
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
   line-height: 32px; /* 114.286% */
-  letter-spacing: -1.12px;
+  letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
 .sign-text {
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 18px; /* 128.571% */
   letter-spacing: -0.28px;
@@ -105,4 +101,50 @@
   height: 540px;
   border-radius: 1000px;
   background: #1d1d1d;
+}
+
+@media screen and (min-width: 768px) {
+  .section-up {
+    width: 480px;
+  }
+  .sign-text {
+    width: 65%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.32px;
+  }
+  .sign-input {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+  }
+  .sign-textarea {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+  }
+  .sign-send {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    text-transform: uppercase;
+  }
+  .sign-form {
+    width: 480px;
+  }
+  .sign-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 54px; /* 112.5% */
+    letter-spacing: -1.92px;
+  }
+  .sign-text-end {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+  }
+}
+
+@media screen and (min-width: 1280px) {
 }

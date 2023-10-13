@@ -10,23 +10,23 @@
 
         <ul class="header-nav-list list">
           <li class="header-nav-item">
-            <a href="#" class="header-nav-link link">About us</a>
+            <a href="#about_us" class="header-nav-link link">About us</a>
           </li>
           <li class="header-nav-item">
-            <a href="#" class="header-nav-link link">Our courses</a>
+            <a href="#our_courses" class="header-nav-link link">Our courses</a>
           </li>
           <li class="header-nav-item">
-            <a href="#" class="header-nav-link link">Our mentors</a>
+            <a href="#our_mentors" class="header-nav-link link">Our mentors</a>
           </li>
           <li class="header-nav-item">
-            <a href="#" class="header-nav-link link">Reviews</a>
+            <a href="#reviews" class="header-nav-link link">Reviews</a>
           </li>
           <li class="header-nav-item">
-            <a href="#" class="header-nav-link link">Contacts</a>
+            <a href="#contacts" class="header-nav-link link">Contacts</a>
           </li>
         </ul>
 
-        <a href="#" class="header-mobile-singup link">
+        <a href="#sing_up" class="header-mobile-singup link">
             <svg width="16" height="16">
             <use href="../img/icons.svg#icon-camera-footer"></use>
           </svg>
@@ -39,14 +39,14 @@
         </button>
       </nav>
 
-      <a href="#" class="header-singup link">Sign up</a>
+      <a href="#sing_up" class="header-singup link">Sign up</a>
     </div>
   </div>
 </header>
 
 <!------------------  mobile-menu  ----------------->
 
-<div class="mobile-menu">
+<div class="mobile-menu is-open">
   <button class="mobile-menu-close-btn" type="button">
     <svg class="mobile-menu-close-icon" width="32" height="32">
       <use href="../img/icons.svg#icon-close-menu"></use>
@@ -54,25 +54,29 @@
   </button>
   <ul class="mobile-menu-list">
     <li class="mobile-menu-item">
-      <a href="#" class="mobile-menu-link current">About us</a>
+      <a href="#about_us" class="mobile-menu-link current">About us</a>
     </li>
     <li class="mobile-menu-item">
-      <a href="#" class="mobile-menu-link">Our courses</a>
+      <a href="#our_courses" class="mobile-menu-link">Our courses</a>
     </li>
     <li class="mobile-menu-item">
-      <a href="#" class="mobile-menu-link">Our mentors</a>
+      <a href="#our_mentors" class="mobile-menu-link">Our mentors</a>
     </li>
     <li class="mobile-menu-item">
-      <a href="#" class="mobile-menu-link">Reviews</a>
+      <a href="#reviews" class="mobile-menu-link">Reviews</a>
     </li>
     <li class="mobile-menu-item">
-      <a href="#" class="mobile-menu-link">Contacts</a>
+      <a href="#contacts" class="mobile-menu-link">Contacts</a>
     </li>
   </ul>
-  <picture class="mobile-menu-img">
-    <source />
-    <source />
-    <source />
-    <img src="" alt="" />
-  </picture>
+  <div class="mobile-menu-picture">
+    <picture class="mobile-menu-img">
+      <source media="(max-width: 767px)" srcset="../img/header/menu-mobile@1x.jpg 1x, ../img/header/menu-mobile@2x.jpg 2x"/>
+      <source media="(min-width: 768px)" srcset="../img/header/menu-tablet@1x.jpg 1x, ../img/header/menu-tablet@2x.jpg 2x"/>
+      <img class="mobile-menu-img" src="../img/header/menu-tablet@1x.jpg" alt="black photo camera" />
+    </picture>
+  </div>
+  
 </div>
+
+          

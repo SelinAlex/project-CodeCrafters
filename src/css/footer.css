@@ -172,7 +172,8 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         width:171px;
     } 
     
-    .text-copyright-footer{
+    .container-wrapper-text-copiright{
+        align-items: end;
         width: 134px;
         
     }
@@ -180,13 +181,14 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         gap:399px;
 
 }
-}
+
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
 screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px) {
-    .page-footer {
+    .page-footer{
         background-image: 
-            url(../../img/footer/footer-bg-tablet@2x.jpg);
+            url(../../img/footer/footer-bg-tablet@2x.png);
     }
-}    
+}   
+}

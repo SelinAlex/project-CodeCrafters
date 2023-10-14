@@ -168,7 +168,7 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background-color: #1d1d1d;
+  background-color: var(--hero-bg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -181,7 +181,7 @@
 
 .courses-icon {
   stroke: #777777;
-  fill: #1d1d1d;
+  fill: var(--hero-bg);
 }
 
 .courses-icon:hover {

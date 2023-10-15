@@ -1,0 +1,240 @@
+
+.title-left-about-us { 
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.125; 
+    letter-spacing: -0.04em;
+    
+    
+    
+
+}
+.title-right-about-us {
+    color: #BEA69E; 
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.125;
+    letter-spacing: -0.04em;
+}
+.container-about-us {
+    max-width: 100%;
+}
+.list-about-us {
+    list-style: none;
+    display: flex;
+}
+.paragraph-about-us {
+    color: var(--white);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+}
+.img-about-us {
+    color: #fff;
+}
+
+
+
+@media only screen and (min-width: 320px) { 
+    .container-about-us {
+        margin: 0 20px;
+    }
+    .img-about-us {
+        
+        margin: 0 auto 40px;
+      }
+    .item-about-us {
+        display: block;
+    }
+    .title-left-about-us {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: -0.04em;
+        margin-bottom: 40px;
+    }
+    .title-right-about-us { 
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: -0.04em; 
+    }
+    .list-about-us {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .paragraph-about-us {
+        max-width: 320px;
+    }
+    .item-about-us:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .container-about-us {
+        margin: 0 32px;
+    }
+    .img-about-us {
+        margin: 0 auto 50px;
+        /*margin-bottom: 50px;*/
+    }
+    .title-left-about-us {
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.125;
+        letter-spacing: -0.04em; 
+        margin-bottom: 50px;
+    }
+    .title-right-about-us {
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.125;
+        letter-spacing: -0.04em; 
+    }
+    .list-about-us {
+        flex-direction: unset;
+        gap: 40px;
+        align-items: flex-start;
+        justify-content: unset;
+    }
+    .paragraph-about-us {
+        width: 280px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+    }
+    .item-about-us:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .list-about-us {
+        margin: 0;
+    }
+    /*.item-about-us {
+        display: flex;
+    }*/
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1280px) { 
+    .container-about-us {
+        margin: 0 100px;
+    }
+    .img-about-us {
+        margin-bottom: 0;
+    }
+    .title-left-about-us {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.125;
+        letter-spacing: -0.04em;
+    }
+    .title-right-about-us {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.125;
+        letter-spacing: -0.04em; 
+    }
+    .item-about-us {
+        display: flex;
+    }
+    .paragraph-about-us {
+        width: 268px;
+    }
+    .list-about-us {
+        gap: 20px;
+        display: inline-flex;
+        flex-wrap: nowrap;
+    }
+    .img-about-us {
+        margin-right: 40px;
+    }
+    .item-img-about-us{
+        display: flex;
+    }
+}
+
+
+@media only screen and (min-width: 1440px) { 
+    .list-about-us {
+        gap: 40px
+    }
+    .img-about-us {
+        /*margin-right: 50px;*/
+        margin: 0;
+    }
+    .paragraph-about-us {
+        width: 314px;
+    }
+    .item-img-about-us {
+        display: flex;
+        gap: 50px;
+        
+      }
+
+}
+
+
+
+
+
+
+
+/*Photo*/
+
+@media only screen and (min-width: 320px) { 
+    .img-about-us {
+        width: 335px;
+        height: 209px;
+         
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .img-about-us {
+        width: 704px;
+        height: 340px;
+        
+    
+    }
+    
+}
+
+@media only screen and (min-width: 1280px) {
+    .img-about-us {
+        width: 488px;
+        height: 260px;
+         
+            
+    }
+}
+
+@media only screen and (min-width: 1440px) { 
+    .img-about-us {
+        width: 560px;
+        height: 240px;
+         
+    }
+}

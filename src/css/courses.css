@@ -180,7 +180,7 @@
 }
 
 .courses-icon {
-  stroke: #777777;
+  stroke: var(--arrow-cources-color);
   fill: var(--hero-bg);
 }
 

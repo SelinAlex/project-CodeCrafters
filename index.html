@@ -23,11 +23,111 @@
       type="image/png"
     />
     
-    <script type="module" crossorigin src="/project-CodeCrafters/assets/index-92a53203.js"></script>
-    <link rel="stylesheet" href="/project-CodeCrafters/assets/index-c636b982.css">
+    <script type="module" crossorigin src="/project-CodeCrafters/assets/index-ae1b6012.js"></script>
+    <link rel="stylesheet" href="/project-CodeCrafters/assets/index-b1a3e6d6.css">
   </head>
   <body>
-    
+    <header class="header">
+  <div class="container">
+    <div class="header-wraper">
+      <nav class="header-nav">
+        <a href="/src/index.html" class="header-logo">
+          <svg class="header-logo-icon" width="127" height="20">
+            <use href="../img/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+
+        <ul class="header-nav-list list">
+          <li class="header-nav-item">
+            <a href="#about_us" class="header-nav-link link">About us</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#our_courses" class="header-nav-link link">Our courses</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#our_mentors" class="header-nav-link link">Our mentors</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#reviews" class="header-nav-link link">Reviews</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#contacts" class="header-nav-link link">Contacts</a>
+          </li>
+        </ul>
+
+        <a href="#sing_up" class="header-mobile-singup link">
+          <svg width="16" height="16">
+            <use href="../img/icons.svg#icon-camera-footer"></use>
+          </svg>
+        </a>
+
+        <button
+          class="mobile-menu-open-btn js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="mobile-menu-open-icon">
+            <use href="../img/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </nav>
+
+      <a href="#sing_up" class="header-singup link">Sign up</a>
+    </div>
+  </div>
+</header>
+
+<!------------------  mobile-menu  ----------------->
+<div class="mobile-menu-backdrop js-menu-backdrop">
+  <div class="mobile-menu js-menu-container" id="mobile-menu">
+    <button class="mobile-menu-close-btn js-close-menu" type="button">
+      <svg class="mobile-menu-close-icon" width="32" height="32">
+        <use href="../img/icons.svg#icon-close-menu"></use>
+      </svg>
+    </button>
+    <ul class="mobile-menu-list">
+      <li class="mobile-menu-item">
+        <a href="#about_us" class="mobile-menu-link current">About us</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a href="#our_courses" class="mobile-menu-link">Our courses</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a href="#our_mentors" class="mobile-menu-link">Our mentors</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a href="#reviews" class="mobile-menu-link">Reviews</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a href="#contacts" class="mobile-menu-link">Contacts</a>
+      </li>
+    </ul>
+    <div class="mobile-menu-picture">
+      <picture class="mobile-menu-img">
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ../img/header/menu-mobile@1x.jpg 1x,
+            ../img/header/menu-mobile@2x.jpg 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ../img/header/menu-tablet@1x.jpg 1x,
+            ../img/header/menu-tablet@2x.jpg 2x
+          "
+        />
+        <img
+          class="mobile-menu-img"
+          src="../img/header/menu-tablet@1x.jpg"
+          alt="black photo camera"
+        />
+      </picture>
+    </div>
+  </div>
+</div>
 
     <section class="hero-section">
   <div class="container hero-container">
@@ -656,5 +756,12 @@
 </footer>
 
     
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>

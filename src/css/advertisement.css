@@ -17,7 +17,9 @@ body {
     font-family: "Pridi", sans-serif;
     font-weight: 600;
     font-size: 34px;
-    
+    border-width: 1px;
+    border-top: ridge rgba(255, 255, 255 ,0.2);
+border-bottom: ridge rgba(255, 255, 255, 0.2);
     text-transform: uppercase;
     background-color: #121212;
     

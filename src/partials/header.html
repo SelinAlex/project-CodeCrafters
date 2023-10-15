@@ -27,13 +27,13 @@
         </ul>
 
         <a href="#sing_up" class="header-mobile-singup link">
-            <svg width="16" height="16">
+          <svg width="16" height="16">
             <use href="../img/icons.svg#icon-camera-footer"></use>
           </svg>
         </a>
-          
-          <button class="mobile-menu-open-btn" type="button"></button>
-          <svg class="mobile-menu-open-icon" width="32" height="22">
+
+        <button class="mobile-menu-open-btn" type="button">
+          <svg class="mobile-menu-open-icon">
             <use href="../img/icons.svg#icon-burger"></use>
           </svg>
         </button>
@@ -46,7 +46,7 @@
 
 <!------------------  mobile-menu  ----------------->
 
-<div class="mobile-menu is-open">
+<div class="mobile-menu">
   <button class="mobile-menu-close-btn" type="button">
     <svg class="mobile-menu-close-icon" width="32" height="32">
       <use href="../img/icons.svg#icon-close-menu"></use>
@@ -71,12 +71,25 @@
   </ul>
   <div class="mobile-menu-picture">
     <picture class="mobile-menu-img">
-      <source media="(max-width: 767px)" srcset="../img/header/menu-mobile@1x.jpg 1x, ../img/header/menu-mobile@2x.jpg 2x"/>
-      <source media="(min-width: 768px)" srcset="../img/header/menu-tablet@1x.jpg 1x, ../img/header/menu-tablet@2x.jpg 2x"/>
-      <img class="mobile-menu-img" src="../img/header/menu-tablet@1x.jpg" alt="black photo camera" />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ../img/header/menu-mobile@1x.jpg 1x,
+          ../img/header/menu-mobile@2x.jpg 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ../img/header/menu-tablet@1x.jpg 1x,
+          ../img/header/menu-tablet@2x.jpg 2x
+        "
+      />
+      <img
+        class="mobile-menu-img"
+        src="../img/header/menu-tablet@1x.jpg"
+        alt="black photo camera"
+      />
     </picture>
   </div>
-  
 </div>
-
-          

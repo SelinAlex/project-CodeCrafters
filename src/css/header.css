@@ -1,11 +1,11 @@
 .header {
   padding-bottom: 20px;
-  background-color: var(--black);
 }
 
 .header-wraper {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .header-nav {
@@ -26,6 +26,11 @@
   fill: var(--white);
 }
 
+.header-logo-icon {
+  width: 127px;
+  height: 20px;
+}
+
 .header-nav-list {
   display: none;
 }
@@ -38,14 +43,21 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background-color: #1d1d1d;
+  background-color: var(--hero-bg);
   fill: rgba(190, 166, 158, 0.4);
+}
+
+.header-mobile-singup:hover,
+.header-mobile-singup:focus,
+.header-mobile-singup:active {
+  fill: var(--brown);
 }
 
 .mobile-menu-open-btn {
   display: flex;
   align-items: center;
   justify-content: center;
+
   padding: 0;
   border: none;
   background-color: transparent;
@@ -53,10 +65,104 @@
 
 .mobile-menu-open-icon {
   stroke: var(--white);
+  width: 32px;
+  height: 22px;
 }
 
 .header-singup {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header-wraper {
+    justify-content: space-between;
+  }
+
+  .header-nav {
+    width: 504px;
+  }
+
+  .header-logo {
+    padding: 22px 0;
+  }
+
+  .header-logo-icon {
+    width: 123px;
+    height: 16px;
+  }
+
+  .header-mobile-singup {
+    display: none;
+  }
+
+  .mobile-menu-open-icon {
+    width: 40px;
+    height: 28px;
+  }
+
+  .header-singup {
+    display: flex;
+    justify-content: center;
+    min-width: 180px;
+    padding: 16px 0;
+    background-color: var(--white);
+    border-radius: 12px;
+
+    color: var(--black);
+    font-family: inherit;
+    font-size: 18px;
+
+    font-weight: 700;
+    line-height: 1.55;
+    text-transform: uppercase;
+  }
+
+  .header-singup:hover,
+  .header-singup:focus,
+  .header-singup:active {
+    background-color: var(--hero-bg);
+    color: var(--brown);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-nav {
+    padding: 0 50px;
+    width: 982px;
+  }
+
+  .header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .header-nav-item {
+    color: var(--white);
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .header-nav-link {
+    padding: 21px 0;
+  }
+
+  .header-nav-link:hover,
+  .header-nav-link:focus,
+  .header-nav-link:active {
+    color: var(--brown);
+  }
+
+  .mobile-menu-open-btn {
+    display: none;
+  }
+
+  .header-singup {
+    min-width: 238px;
+  }
 }
 
 /* ======================== mobile-menu =========================== */

@@ -1,9 +1,44 @@
 <section class="section">
-    <div class="container-about-us">
-        <h2 class="title-left-about-us">About <span class="title-right-about-us">Us</span></h2>
+    <div class="container-about-us container">
+        <h2 id="about_us" class="title-left-about-us">About <span class="title-right-about-us">Us</span></h2>
         
             <div class="item-img-about-us"> 
                 <picture>
+                    <source
+                    media="(min-width: 1440px)"
+                    srcset="
+                        ./img\about-us\about-us-big.png    1x,
+                        ./img\about-us\about-us-big@2x.png 2x
+                    "
+                    type="image/png"
+                    />
+                    <!--Desktop-->
+                    <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                        ./img\about-us\about-us-desktop@1x.png    1x,
+                        ./img\about-us\about-us-desktop@2x.png 2x
+                    "
+                    type="image/png"
+                    />
+                    <!--Tablet-->
+                    <source
+                    media="(min-width: 768px)"
+                    srcset="
+                        ./img\about-us\about-us-tablet@1x.png    1x,
+                        ./img\about-us\about-us-tablet@2x.png 2x
+                    "
+                    type="image/png"
+                    />
+                    <!--Mobile-->
+                    <source
+                    media="(max-width: 767px)"
+                    srcset="
+                        ./img\about-us\about-us-mobile@1x.png    1x,
+                        ./img\about-us\about-us-mobile@2x.png 2x
+                    "
+                    type="image/png"
+                    />
                     <img
                     src="./img/about-us/about-us-desktop@2x.png"
                     alt="Camera"
@@ -12,35 +47,8 @@
                     class="img-about-us"
                     loading="lazy"
                     />
-                    <!--Desktop-->
-                    <source
-                    media="(min-width: 1280px)"
-                    srcset="
-                        src\img\about-us\about-us-desktop@1x.png    1x,
-                        src\img\about-us\about-us-desktop@2x.png 2x
-                    "
-                    type="image/png"
-                    />
-                    <!--Tablet-->
-                    <source
-                    media="(min-width: 768px)"
-                    srcset="
-                        src\img\about-us\about-us-tablet@1x.png    1x,
-                        src\img\about-us\about-us-tablet@2x.png 2x
-                    "
-                    type="image/png"
-                    />
-                    <!--Mobile-->
-                    <source
-                    media="(max-width: 767px)"
-                    srcset="
-                        src\img\about-us\about-us-mobile@1x.png    1x,
-                        src\img\about-us\about-us-mobile@2x.png 2x
-                    "
-                    type="image/png"
-                    />
-                    
-              </picture>
+  
+                </picture>
             
             
                 <ul class="list-about-us">

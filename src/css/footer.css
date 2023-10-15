@@ -1,16 +1,19 @@
 
-
 .page-footer {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 20px;
-  background-image: url(../../img/footer/footer-bg-mobile@1x.png);
+  background-image: url(./../img/footer/footer-bg-mobile@1x.png);
   background-size: cover;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+
 
 
 .container-footer {
   display: flex;
   flex-direction: column;
+ 
   
 
 }
@@ -31,9 +34,7 @@
 }
 .item-contact-footer {
   color: var(--white);
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.28;
 }
@@ -54,8 +55,15 @@
 }
 .nav-link-footer{
     color: var(--white);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
+
+ .nav-link-footer:hover,
+ .nav-link-footer:focus {
+     color: var(--brown);
+
+ }
 
 .list-social-footer {
   display: flex;
@@ -137,7 +145,7 @@
   screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .page-footer {
-    background-image: url(../../img/footer/footer-bg-mobile@2x.png);
+    background-image: url(./../img/footer/footer-bg-mobile@2x.png);
   }
 }
 
@@ -146,7 +154,7 @@
         padding-top: 50px ;
         padding-bottom:25px  ;
         background-image: 
-            url(../../img/footer/footer-bg-tablet@1x.png);
+            url(./../img/footer/footer-bg-tablet@1x.png);
         }
       
     .container-footer{
@@ -186,7 +194,7 @@
     screen and (min-resolution: 192dpi) and (min-width: 768px),
     screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .page-footer {
-      background-image: url(../../img/footer/footer-bg-tablet@2x.png);
+      background-image: url(./../img/footer/footer-bg-tablet@2x.png);
     }
 }   
 }
@@ -194,7 +202,7 @@
 @media screen and (min-width:1280px) {
     .page-footer {
         background-image: 
-            url(../../img/footer/footer-bg-desktop@1x.png);
+            url(./../img/footer/footer-bg-desktop@1x.png);
     }
         .form-input-footer {
             min-width: 216px;
@@ -208,13 +216,9 @@ screen and (min-resolution: 192dpi) and (min-width: 1280px),
 screen and (min-resolution: 2dppx) and (min-width: 1280px) {
     .page-footer {
         background-image: 
-            url(../../img/footer/footer-bg-desktop@2x.png);
+            url(./../img/footer/footer-bg-desktop@2x.png);
     }
 
 
-        .nav-link-footer:hover,
-        .nav-link-footer:focus {
-           color:var(--brown);
-
-        }
+       
 }

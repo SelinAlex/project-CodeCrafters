@@ -17,7 +17,8 @@
                 type="text"
                 name="user-name"
                 pattern="[A-Za-z]{3}"
-                required
+                required=""
+                autocomplete="on"
                 placeholder="Enter your name"
               />
             </div>
@@ -29,8 +30,9 @@
                 id="user-email"
                 type="text"
                 name="user-name"
-                pattern="[A-Za-z]{3}"
-                required
+                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                required=""
+                autocomplete="on"
                 placeholder="Enter your email"
               />
             </div>
@@ -49,7 +51,7 @@
               ></textarea>
             </div>
           </div>
-          <button class="sign-send" type="button">Send</button>
+          <button class="sign-send" type="submit">Send</button>
 
           <p class="sign-text-end">
             By clicking on “Send” button, you agree to our

@@ -31,5 +31,8 @@
     <symbol id="icon-burger" viewBox="0 0 45 32">
       <path stroke-linecap="round" stroke-width="3.097" d="M7.832 4.583h31.91M7.832 22.1h31.91M17.706 13.341h22.036" />
     </symbol>
+    <svg id="footer-line" viewBox="0 0 1280 2" fill="none">
+      <path d="M0 1H1280" stroke="white" stroke-opacity="0.2" />
+    </svg>
   </defs>
 </svg>

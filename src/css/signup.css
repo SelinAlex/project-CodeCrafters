@@ -69,6 +69,11 @@
   text-transform: uppercase;
   border: none;
 }
+.sign-send:hover,
+.sign-send:focus {
+  background: #1d1d1d;
+  color: #bea69e;
+}
 .sign-text-end {
   color: rgba(255, 255, 255, 0.5);
   font-family: DM Sans;

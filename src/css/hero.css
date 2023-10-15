@@ -265,38 +265,39 @@
 /* Background-image */
 
 .background-wrapper {
-  background-image: url(./img/hero/Graphic.png);
+  background-image: url(../img/hero/Graphic.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 767.98px) and (min-resolution: 192dpi) {
   .background-wrapper {
-    background-image: url(./img/hero/Graphic@2x.png);
+    background-image: url(../img/hero/Graphic@2x.png);
   }
 }
 
 @media screen and (min-width: 768px) {
   .background-wrapper {
-    background-image: url(./img/hero/Graphic-Tab.png);
+    background-image: url(../img/hero/Graphic-Tab.png);
   }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .background-wrapper {
-    background-image: url(./img/hero/Graphic-Tab@2x.png);
+    background-image: url(../img/hero/Graphic-Tab@2x.png);
   }
 }
 
 @media screen and (min-width: 1280px) {
   .background-wrapper {
-    background-image: url(./img/hero/Graphic-Desk.png);
+    background-image: url(../img/hero/Graphic-Desk.png);
   }
 }
 
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .background-wrapper {
-    background-image: url(./img/hero/Graphic-Desk@2x.png);
+    background-image: url(../img/hero/Graphic-Desk@2x.png);
   }
 }

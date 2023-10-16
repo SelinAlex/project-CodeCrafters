@@ -1,15 +1,18 @@
-.review-container {
+.review-section {
+  padding-top: 40px;
   padding-bottom: 80px;
 }
 
 @media only screen and (min-width: 768px) {
-  .review-container {
+  .review-section {
+    padding-top: 50px;
     padding-bottom: 100px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .review-container {
+  .review-section {
+    border-top: 75px;
     padding-bottom: 150px;
   }
 }

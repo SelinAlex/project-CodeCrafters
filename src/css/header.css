@@ -186,7 +186,7 @@
 /* ======================== mobile-menu =========================== */
 
 .mobile-menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 218px;

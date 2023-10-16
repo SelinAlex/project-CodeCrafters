@@ -2,7 +2,7 @@
   <div class="container">
     <div class="header-wraper">
       <nav class="header-nav">
-        <a href="/src/index.html" class="header-logo">
+        <a href="./index.html" class="header-logo">
           <svg class="header-logo-icon" width="127" height="20">
             <use href="./img/icons.svg#icon-logo"></use>
           </svg>
@@ -50,52 +50,51 @@
 </header>
 
 <!------------------  mobile-menu  ----------------->
-<div class="mobile-menu-backdrop js-menu-backdrop">
-  <div class="mobile-menu js-menu-container" id="mobile-menu">
-    <button class="mobile-menu-close-btn js-close-menu" type="button">
-      <svg class="mobile-menu-close-icon" width="32" height="32">
-        <use href="./img/icons.svg#icon-close-menu"></use>
-      </svg>
-    </button>
-    <ul class="mobile-menu-list">
-      <li class="mobile-menu-item">
-        <a href="#about_us" class="mobile-menu-link current">About us</a>
-      </li>
-      <li class="mobile-menu-item">
-        <a href="#our_courses" class="mobile-menu-link">Our courses</a>
-      </li>
-      <li class="mobile-menu-item">
-        <a href="#our_mentors" class="mobile-menu-link">Our mentors</a>
-      </li>
-      <li class="mobile-menu-item">
-        <a href="#reviews" class="mobile-menu-link">Reviews</a>
-      </li>
-      <li class="mobile-menu-item">
-        <a href="#contacts" class="mobile-menu-link">Contacts</a>
-      </li>
-    </ul>
-    <div class="mobile-menu-picture">
-      <picture class="mobile-menu-img">
-        <source
-          media="(max-width: 767px)"
-          srcset="
-            ./img/header/menu-mobile@1x.jpg 1x,
-            ./img/header/menu-mobile@2x.jpg 2x
-          "
-        />
-        <source
-          media="(min-width: 768px)"
-          srcset="
-            ./img/header/menu-tablet@1x.jpg 1x,
-            ./img/header/menu-tablet@2x.jpg 2x
-          "
-        />
-        <img
-          class="mobile-menu-img"
-          src="./img/header/menu-tablet@1x.jpg"
-          alt="black photo camera"
-        />
-      </picture>
-    </div>
+<div class="mobile-menu-backdrop js-menu-backdrop"></div>
+<div class="mobile-menu js-menu-container" id="mobile-menu">
+  <button class="mobile-menu-close-btn js-close-menu" type="button">
+    <svg class="mobile-menu-close-icon" width="32" height="32">
+      <use href="./img/icons.svg#icon-close-menu"></use>
+    </svg>
+  </button>
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+      <a href="#about_us" class="mobile-menu-link current">About us</a>
+    </li>
+    <li class="mobile-menu-item">
+      <a href="#our_courses" class="mobile-menu-link">Our courses</a>
+    </li>
+    <li class="mobile-menu-item">
+      <a href="#our_mentors" class="mobile-menu-link">Our mentors</a>
+    </li>
+    <li class="mobile-menu-item">
+      <a href="#reviews" class="mobile-menu-link">Reviews</a>
+    </li>
+    <li class="mobile-menu-item">
+      <a href="#contacts" class="mobile-menu-link">Contacts</a>
+    </li>
+  </ul>
+  <div class="mobile-menu-picture">
+    <picture class="mobile-menu-img">
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./img/header/menu-mobile@1x.jpg 1x,
+          ./img/header/menu-mobile@2x.jpg 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./img/header/menu-tablet@1x.jpg 1x,
+          ./img/header/menu-tablet@2x.jpg 2x
+        "
+      />
+      <img
+        class="mobile-menu-img"
+        src="./img/header/menu-tablet@1x.jpg"
+        alt="black photo camera"
+      />
+    </picture>
   </div>
 </div>

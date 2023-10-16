@@ -186,7 +186,7 @@
 /* ======================== mobile-menu =========================== */
 
 .mobile-menu {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   width: 218px;
@@ -243,7 +243,8 @@
 }
 
 .mobile-menu-link:hover,
-.mobile-menu-link:focus {
+.mobile-menu-link:focus,
+.mobile-menu-link:active {
   font-weight: 700;
 }
 

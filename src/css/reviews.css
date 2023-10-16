@@ -1,3 +1,19 @@
+.review-container {
+  padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .review-container {
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .review-container {
+    padding-bottom: 150px;
+  }
+}
+
 .review-title {
   font-size: 28px;
   font-weight: 500;

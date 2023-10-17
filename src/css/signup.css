@@ -214,3 +214,9 @@
     gap: 60px;
   }
 }
+
+@media screen and (min-width: 1400px) {
+  .cont-sign {
+    justify-content: space-between;
+  }
+}
